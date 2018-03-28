@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Venezuela Freelance</title>
+		<link rel="shortcut icon" href="img/126074b5accb18c2419c1c631f1e208f-la-cabeza-del-hombre-de-dibujos-animados-2-by-vexels.png" type="image/x-icon">
+        <!-- Bootstrap core CSS-->
+        <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="lib/material/material.css" rel="stylesheet">
+        <!-- Custom fonts for this template-->
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- Page level plugin CSS-->
+        
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fonts/material.css">
+        <link rel="stylesheet" href="fonts/roboto.css">
+        <style>
+        	#preloader{
+        		position: absolute;
+        		left: 0;
+        		bottom: 0;
+        		width: 100%;
+        		height: 100%;
+        		z-index:997;
+        	}
+            .modal-body{
+                background: rgba(200, 200, 200, 1) !important;
+            }
+            .modal-footer{
+                background: rgba(200, 200, 200, 1) !important;
+            }
+        </style>
+
+        
+
+
+ 
+       
+    </head>
+ <!-- Preloader -->
+    <body class=" " id="page-top"> 
+    	<div id="preloader" class="bg-dark">      
+    		<div class="loader" style="z-index: 999;"></div>
+    	</div>
+    <!-- Preloader -->
+
+        <!-- Navigation--> <!--class="sticky-footer bg-dark"-->
+    	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style="z-index: 996;" > 
+    		<div id="nombre" class="text-capitalize text-white" >&#160 Juan Carlos </div>
+                <ul class="navbar-nav ml-auto">
+                    <li id="" >
+                    	<div class="container-fluid">
+                            <div class="row">
+
+                                <div class="text-white d-inline   d-block" id="fecha"></div>    
+                                <div class="d-inline text-white" id="log">
+                                    <!-- Left aligned menu below button -->
+									<div id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+                               			<img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+                               		</div>
+								<ul class=" bg-dark mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+  									<li class="mdl-menu__item"> <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                            		<i class="fa fa-fw fa-sign-out"></i>Logout</a></li>
+								</ul>
+								</div>
+                          	</div>  
+                        </div>
+                    </li>   
+
+                    
+                </ul>
+            </div>
+        </nav>
+        
+            <!-- inicio del body-->
+            <div class="container-fluid" style="margin-top:60px; width: 90%; margin-left: 5%;">
+                <div class="row">
+                	<!--inicio lateral izquierdo-->
+                    <div class=" col-lg-3">
+                      <!-- area widget -->
+                        <div class="demo-card-event mdl-card mdl-shadow--2dp">
+                          <button id="primero" class="mdl-button mdl-js-button mdl-button--icon">
+  							<i class="material-icons">more_vert</i>
+						  </button>
+						  <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="primero">
+						  	<li class="mdl-menu__item">No hago nada</li>
+						  	<li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Solo estoy de relleno</li>
+						  	<li disabled class="mdl-menu__item">Yo menos</li>
+						  	<li class="mdl-menu__item">Ni yo, mi modo</li>
+						  </ul>
+                          <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                             <div id="saludar"></div>
+                             Juan Carlos <br>
+                             <small> Hoy es el cumpleaños de...</small> 
+                            </h4>
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              aderir al calendario
+                            </a>
+                            <div class="mdl-layout-spacer"></div>
+                            <i class="material-icons">event</i>
+                          </div>
+                        </div>
+                        
+        <!--otro widget-->
+          <div id="chica-foto" class="demo-card-event mdl-card mdl-shadow--2dp">
+                            <!-- Left aligned menu below button -->
+<button id="segundo" class="mdl-button mdl-js-button mdl-button--icon">
+  <i class="material-icons">more_vert</i>
+</button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="segundo">
+  <li class="mdl-menu__item">No se quien es, lo siento</li>
+  <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Muted</li>
+  
+  <li class="mdl-menu__item"> Yo menos, no insistas</li>
+</ul>
+
+                          <div class="mdl-card__title mdl-card--expand">
+                            <h4 class="text-dark">
+                             
+                             QUIERES SABER SU NOMBRE...? <br>
+                             <small> No lo se</small> 
+                            </h4>
+                            
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " id="conocer">
+                              Conocerla
+                            </a>
+                            <ul class="mdl-menu mdl-menu--top-left mdl-js-menu mdl-js-ripple-effect" for="conocer">
+  								<p class="text-center text-dark">No listo para conocerla?</p>
+  								<li class="mdl-menu__item mdl-menu__item--full-bleed-divider"></li> 
+  								<li class="mdl-menu__item"><a  class="btn btn-outline-success" data-toggle="modal" data-target="#feo">Clickme</a> </li>
+							</ul>
+                            <div class="mdl-layout-spacer"></div>
+                            <i class="fa fa-heart-o mdl-badge mdl-badge--overlap" data-badge="20" ></i>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!--Fin lateral izquierdo-->
+                    <!--inicio central-->
+                    <div class="col-md-6 ">
+                        
+							<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							  <div class="mdl-tabs mdl-js-tabs">
+							  <div class="mdl-tabs__tab-bar">
+							    <a href="#tab1" class="mdl-tabs__tab">PENSAMIENTO </a>
+							    <a href="#tab2" class="mdl-tabs__tab">PROPUESTA</a>
+							    
+							  </div>
+							  <div class="mdl-tabs__panel is-active" id="tab1">
+							    <div class="container-fluid">
+							        <div class="row">
+							            <div class="col-1">
+							                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+							            </div>
+							            <div class="col-10">
+							      <div>
+							  <div class="mdl-textfield mdl-js-textfield">
+							  <textarea class="mdl-textfield__input" type="text" rows="5" id="address"></textarea>
+							  <label class="mdl-textfield__label" for="address">PENSAMIENTO</label>
+							</div>
+							</div>
+							                
+							            </div>
+							        </div>
+							    </div>
+							  </div>
+							  <div class="mdl-tabs__panel" id="tab2">
+							    <div class="container-fluid">
+							        <div class="row">
+							            <div class="col-10">
+							    <div>
+							  <div class="mdl-textfield mdl-js-textfield">
+							  <textarea class="mdl-textfield__input" type="text" rows="5" id="address"></textarea>
+							  <label class="mdl-textfield__label" for="address">PROPUESTA</label>
+							</div>
+							</div>
+							                
+							            </div>
+							            <div class="col-1">
+							                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+							            </div>
+							        </div>
+							    </div>
+							  </div>
+							 
+							</div>
+							  
+							  <div class="mdl-card__actions mdl-card--border">
+							  
+							 <div class="row">
+							     <div class="col-8">
+							         <div class="input-group mb-3">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text" id="basic-addon1" data-toggle="modal" data-target="#Modalfoto"> 
+							    <div id="foto" class="fa fa-camera"></div>
+							<div class="mdl-tooltip  mdl-tooltip--top"  data-mdl-for="foto" >
+							Subir <strong>foto</strong>
+							</div>
+							 </span>
+							  </div>
+							  
+							</div>
+							     </div>
+							     <div class="col-4">
+							         <button class="btn btn-outline-primary">
+							            <i class="fa fa-reply" ></i>&#160
+							             Enviar
+							         </button>
+							     </div>
+							 </div>
+							  <div class="mdl-card__menu">
+							  
+							  </div>
+							</div>
+							                    </div>
+							                    <!--Segundo widget-->
+                
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-tabs mdl-js-tabs">
+  <div class="mdl-tabs__tab-bar">
+    <a href="#tab1" class="mdl-tabs__tab">Mensaje </a>
+    <a href="#tab2" class="mdl-tabs__tab">Respuestas</a>
+    
+  </div>
+  <div class="mdl-tabs__panel is-active" id="tab1">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+            </div>
+            <div class="col-5"> 
+   				<iframe src="https://www.youtube.com/embed/ckrr6qgjJKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:10vw; margin-top: 1rem; "></iframe>
+                
+            </div>
+            <div class="col-5">
+    <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus minus quaerat deserunt odio, accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit, itaque perferendis quis ipsa esse odit.</p>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="mdl-tabs__panel" id="tab2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10">
+   <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus minus quaerat deserunt odio, accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit, itaque perferendis quis ipsa esse odit.</p>
+                
+            </div>
+            <div class="col-1">
+                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+            </div>
+             <div class="col-10">
+   <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus minus quaerat deserunt odio, accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit, itaque perferendis quis ipsa esse odit.</p>
+                
+            </div>
+           
+        </div>
+    </div>
+  </div>
+ 
+</div>
+  
+  <div class="mdl-card__actions mdl-card--border">
+  
+ <div class="row">
+     <div class="col-8">
+         <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1" data-toggle="modal" data-target="#Modalfoto"> 
+    <div id="foto" class="fa fa-camera"></div>
+<div class="mdl-tooltip  mdl-tooltip--top"  data-mdl-for="foto" >
+Subir <strong>foto</strong>
+</div>
+ </span>
+  </div>
+  <input type="text" class="form-control" placeholder="respuesta" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+     </div>
+     <div class="col-4">
+         <button class="btn btn-outline-primary">
+            <i class="fa fa-reply" ></i>&#160
+             Enviar
+         </button>
+     </div>
+ </div>
+  <div class="mdl-card__menu">
+  
+  </div>
+</div>
+</div>
+
+<!--tercer widget-->
+
+  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-tabs mdl-js-tabs">
+  <div class="mdl-tabs__tab-bar">
+    <a href="#tab1" class="mdl-tabs__tab">Mensaje </a>
+    <a href="#tab2" class="mdl-tabs__tab">Respuestas</a>
+    
+  </div>
+  <div class="mdl-tabs__panel is-active" id="tab1">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+            </div>
+            <div class="col-10">
+    <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus minus quaerat deserunt odio, accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit, itaque perferendis quis ipsa esse odit.</p>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="mdl-tabs__panel" id="tab2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10">
+   <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus minus quaerat deserunt odio, accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit, itaque perferendis quis ipsa esse odit.</p>
+                
+            </div>
+            <div class="col-1">
+                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <img style="max-height: 30px;border-radius: 50%;" src="img/no-user.png">
+            </div>
+            <div class="col-10">
+    <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus minus quaerat deserunt odio, accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit, itaque perferendis quis ipsa esse odit.</p>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+ 
+</div>
+  
+  <div class="mdl-card__actions mdl-card--border">
+  
+ <div class="row">
+     <div class="col-8">
+         <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1" data-toggle="modal" data-target="#Modalfoto"> 
+    <div id="foto" class="fa fa-camera"></div>
+<div class="mdl-tooltip  mdl-tooltip--top"  data-mdl-for="foto" >
+Subir <strong>foto</strong>
+</div>
+ </span>
+  </div>
+  <input type="text" class="form-control" placeholder="respuesta" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+     </div>
+     <div class="col-4">
+         <button class="btn btn-outline-primary">
+            <i class="fa fa-reply" ></i>&#160
+             Enviar
+         </button>
+     </div>
+ </div>
+  <div class="mdl-card__menu">
+  
+  </div>
+</div>
+</div>
+
+                    </div>
+                    <!--final central-->
+                    <!--inicio lateral derecho-->
+                    <div class="col-md-3">
+                    	<div class="mdl-card">
+  <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text text-center">Lista de Amigos<br><small>Constactos recientes</small></h2>
+  </div>
+  <div class="mdl-card__media">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/126074b5accb18c2419c1c631f1e208f-la-cabeza-del-hombre-de-dibujos-animados-2-by-vexels.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/b77f3e1aa3953b0644e7d3420fd5de51.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/dibujos-tumblr-art-colours-Favim.com-4120365.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </div>
+  <div class="mdl-card__supporting-text">
+  <div class="demo-list-action mdl-list">
+  <div class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar">person</i>
+      <span>Bryan Cranston</span>
+    </span>
+    <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+  </div>
+  <div class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar">person</i>
+      <span>Aaron Paul</span>
+    </span>
+    <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+  </div>
+  <div class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar">person</i>
+      <span>Bob Odenkirk</span>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+  </span>
+  </div>
+</div>
+  </div>
+  <div class="mdl-card__actions">
+     <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+  </div>
+</div>
+
+                    </div>
+            </div>
+            <!-- fin de contenido-->
+            <footer class="bg-dark fixed-bottom">
+                <div class="container">
+                	<div class="row">
+                	<div class="col-4 text-white" id="hora"></div>	
+                    <div class="text-center text-white col-4">
+                        
+                    </div>
+                	</div>
+                </div>
+            </footer>
+            <!-- Scroll to Top Button-->
+            <a class="scroll-to-top rounded text-white" style="z-index: 991" href="#page-top">
+                <i class="fa fa-angle-up text-white"></i>
+            </a>
+            <!-- Logout Modal-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cerrar Sesión?</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">Desea salir de la sesión?.</div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                            <a class="btn btn-primary" href="destroy.php"onclick="  ">Cerrar Sesión</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+
+        <!-- modal foto -->
+         <div class="modal fade" id="Modalfoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel1">Cerrar Sesión?</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+
+                        </div>
+
+                        <div class="modal-body">
+                        	<div class="container-fluid">
+                        		<div class="row empaque">
+                        			<div class="col-6 cajita">
+                        				<div class="texto-en-cajita">
+                        					
+                        				<p class="text-center">
+                        					<i class="fa fa-video-camera"></i><br>
+                        					Subir video
+                        				</p>
+                        				</div>
+                        			</div>
+                        			<div class="col-6 cajita">
+                        				<div class="texto-en-cajita">
+                        					
+                        				<p class="text-center">
+                        					<i class="fa fa-camera"></i><br>
+                        					Subir video
+                        				</p>
+                        				</div>
+                        			</div>
+                        		</div>
+                        	</div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-primary" type="button" data-dismiss="modal">Cancelar</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Modal feo-->
+             <div class="modal fade" id="feo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        
+
+                        <div class="modal-body" >
+                        	<div class="" style="background-image: url('img/1448320074-1.jpg'); background-size: cover ; height: 30vh ;width:  20vw;"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-primary" type="button" data-dismiss="modal">Cancelar</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Bootstrap core JavaScript-->
+            <script src="lib/jquery/jquery.min.js"></script>
+            <script src="lib/jquery/jquery.slim.min.js"></script>
+            <script src="lib/bootstrap/js/popper.js"></script>
+            <script src="lib/bootstrap/js/tooltip.js"></script>
+            
+            <script src="lib/bootstrap/js/bootstrap.js"></script>
+            <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/jquery/jquery.min.js"></script>
+            <script src="lib/material/material.js"></script>
+            <!-- Core plugin JavaScript-->
+            <script src="lib/jquery-easing/jquery.easing.min.js"></script>
+            <!-- Page level plugin JavaScript-->
+           
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin.js"></script>
+            <!-- Custom scripts for this page-->
+           
+            <!--aditional scripts-->
+            <script src="lib/time/time.js"></script>
+        
+
+
+
+     <script>
+     	function handlePreloader() {
+		if($('#preloader').length){
+			$('#preloader').delay(200).fadeOut(500);
+		}
+	}
+	$(window).on('load', function() {
+		// add your functions
+		(function ($) {
+			handlePreloader();
+			
+		})
+
+        (jQuery);
+	});
+ 
+  
+     </script> 
+</body>
+	
+</html>
